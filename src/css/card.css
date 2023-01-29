@@ -1,0 +1,53 @@
+h4 ,h6{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: black;
+    list-style-type: none;
+    
+}
+.card-items{
+    width: 100%;
+    height: 400px;
+    text-decoration: none;
+    background-color: aliceblue;
+}
+.img-box{
+    width: 100%;
+    height: 60%;
+}
+.txt-box{
+    width: 100%;
+    height: 40%;
+    padding: 0 5px 0 5px;
+    margin: 0;
+}
+.txt-box h4{
+    width: 100%;
+    height: 15%;
+}
+.txt-box p{
+    width: 100%;
+    height: 25%;
+    font-family: sans-serif;
+    font-size: 0.85rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.txt-box .rate{
+ padding: 0;
+ margin-top: -5px;
+}
+.txt-box h5{
+    margin: -5px;
+    padding: 0;
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+    
+}
